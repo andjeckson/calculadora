@@ -12,8 +12,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -22,7 +22,7 @@ body {
 
 .abertura{
  position: fixed;
- right: 0;
+ top: 0;
  left: 0;
  width: 100%;
  height: 100%;
