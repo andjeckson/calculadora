@@ -5,4 +5,4 @@
 Calculadora simples para mobile feita com HTML, CSS e JS.
 
 ## Captura de tela:
-<img src="assets/img/captura-de-tela.jpg" /> 
+<img src="assets/img/Captura-de-tela.jpg" /> 
