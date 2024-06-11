@@ -15,10 +15,6 @@ const teclas = $('.teclas')
 const botoes = teclas.querySelectorAll('button')
 
 botoes.forEach((btn)=>{
-    // const largura = window.getComputedStyle(btn)
-    //                 .getPropertyValue('width')
-                   
-    //       btn.style.setProperty('--medida', largura)
           
           btn.onclick = ()=> digitar( btn.innerText )
 })
