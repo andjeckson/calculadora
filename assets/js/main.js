@@ -60,10 +60,7 @@ window.addEventListener('error',(e)=>{
   alert(e.message)
 })
 
-window.addEventListener('DOMContentLoaded', ()=>{
-    setTimeout(()=>{
-       let telaDeAbertura = document.querySelector('.abertura')
+let telaDeAbertura = document.querySelector('.abertura')
+    telaDeAbertura.addEventListener('animationend', ()=>{
            telaDeAbertura.remove()
-    }, 2000)
-})
-
+    })
