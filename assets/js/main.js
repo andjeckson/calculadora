@@ -57,7 +57,7 @@ function digitar( tecla )
 
 
 window.addEventListener('error',(e)=>{
-  alert(e.message)
+  console.error(e.message)
 })
 
 let telaDeAbertura = document.querySelector('.abertura')
